@@ -28,7 +28,7 @@ jobs:
           cache: true
 
       - name: Set up Android SDK and NDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: Install Android NDK
         run: sdkmanager "ndk;27.2.12479018"
